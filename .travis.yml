@@ -1,23 +1,25 @@
-osx_image: xcode12.2
+osx_image: xcode12.5
 language: objective-c
 
 cache: cocoapods
-podfile: Example/Podfile
+podfile: Podfile
 
 env:
   global:
     - LANG=en_US.UTF-8
     - LC_ALL=en_US.UTF-8
-    - XCODE_WORKSPACE=Example/GMObjC.xcworkspace
+    - XCODE_WORKSPACE=GMObjC.xcworkspace
   matrix:
-    - SCHEME="GMObjC-Example"
+    - SCHEME="GMObjCDemo"
 
 before_install:
   - env
   - locale
+  - gem install cocoapods --no-document --quiet
   - gem install xcpretty --no-document --quiet
-  - gem install cocoapods --pre
-  - pod update --project-directory=Example
+  - pod --version
+  - pod repo update --silent
+  - pod update
   - xcpretty --version
   - xcodebuild -version
   - xcodebuild -showsdks
@@ -26,7 +28,7 @@ before_install:
 script:
   - set -o pipefail
   - xcodebuild clean build -workspace "$XCODE_WORKSPACE" -scheme "$SCHEME" -sdk iphonesimulator -configuration Debug | xcpretty -c
-  - xcodebuild clean build test -workspace "$XCODE_WORKSPACE" -scheme "$SCHEME" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 11,OS=latest" -configuration Debug GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES | xcpretty -c
+  - xcodebuild clean build test -workspace "$XCODE_WORKSPACE" -scheme "$SCHEME" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 12,OS=latest" -configuration Debug GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES | xcpretty -c
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)

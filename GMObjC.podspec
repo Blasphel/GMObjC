@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source_files        = "GMObjC/**/*.{h,m}"
   s.public_header_files = "GMObjC/**/*.h"
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.requires_arc     = true
   s.static_framework = true

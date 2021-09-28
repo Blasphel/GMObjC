@@ -1,5 +1,6 @@
 ignore:
 - "国密官方文档"
 - "Carthage"
-- "Example"
-- "GMObjCFramework"
+- "GMObjCDemo"
+- "GMObjCTests"
+- "Pods"
