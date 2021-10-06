@@ -11,6 +11,6 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(name: "GMObjC", dependencies: ["openssl"], path: "GMObjC"),
-        .binaryTarget(name: "openssl", path: "XCFrameworks/openssl.xcframework"),
+        .binaryTarget(name: "openssl", path: "Frameworks/openssl.xcframework"),
     ]
 )
