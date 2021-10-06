@@ -141,7 +141,7 @@
 		35CBE4E6BCFF69F273D7654A /* Pods_GMObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		672009C212C0061E8E4F1030 /* Pods-GMObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMObjCDemo.release.xcconfig"; path = "Target Support Files/Pods-GMObjCDemo/Pods-GMObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8A553A471A2ED6FD810BD85F /* Pods-GMObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMObjCTests.debug.xcconfig"; path = "Target Support Files/Pods-GMObjCTests/Pods-GMObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C05BA972702B8C000C5597E /* GMObjC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GMObjC.podspec; sourceTree = "<group>"; };
+		9C05BA972702B8C000C5597E /* GMObjC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GMObjC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C260D522702ACB8003A4EB1 /* sm2pri-4.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-4.pem"; sourceTree = "<group>"; };
 		9C260D532702ACB8003A4EB1 /* sm2pri-5.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-5.pem"; sourceTree = "<group>"; };
 		9C260D542702ACB8003A4EB1 /* sm2pri-7.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-7.pem"; sourceTree = "<group>"; };
@@ -839,6 +839,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = jingquezhili;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e x86_64";
 			};
 			name = Debug;
 		};
@@ -869,6 +870,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = jingquezhili;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e x86_64";
 			};
 			name = Release;
 		};
