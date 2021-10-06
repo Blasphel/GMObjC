@@ -118,11 +118,24 @@
 		9C260DFC2702ADD0003A4EB1 /* GMSm4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C260DF52702ADD0003A4EB1 /* GMSm4Tests.m */; };
 		9C260DFD2702ADD0003A4EB1 /* GMSm2k1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C260DF62702ADD0003A4EB1 /* GMSm2k1Tests.m */; };
 		9C260DFE2702ADD0003A4EB1 /* GMSm3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C260DF72702ADD0003A4EB1 /* GMSm3Tests.m */; };
+		9C6D8407270D5BC5000AF64E /* GMObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6D8406270D5BC5000AF64E /* GMObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6D840C270D5E61000AF64E /* GMObjCDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6D840B270D5E61000AF64E /* GMObjCDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6D8417270D5E6B000AF64E /* GMSm4Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D840D270D5E6A000AF64E /* GMSm4Utils.m */; };
+		9C6D8418270D5E6B000AF64E /* GMSm2Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6D840E270D5E6A000AF64E /* GMSm2Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6D8419270D5E6B000AF64E /* GMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D840F270D5E6A000AF64E /* GMUtils.m */; };
+		9C6D841A270D5E6B000AF64E /* GMSm2Bio.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D8410270D5E6A000AF64E /* GMSm2Bio.m */; };
+		9C6D841B270D5E6B000AF64E /* GMSm3Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D8411270D5E6A000AF64E /* GMSm3Utils.m */; };
+		9C6D841C270D5E6B000AF64E /* GMSm4Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6D8412270D5E6A000AF64E /* GMSm4Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6D841D270D5E6B000AF64E /* GMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6D8413270D5E6A000AF64E /* GMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6D841E270D5E6B000AF64E /* GMSm3Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6D8414270D5E6B000AF64E /* GMSm3Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6D841F270D5E6B000AF64E /* GMSm2Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D8415270D5E6B000AF64E /* GMSm2Utils.m */; };
+		9C6D8420270D5E6B000AF64E /* GMSm2Bio.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6D8416270D5E6B000AF64E /* GMSm2Bio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CA1D0472701B95A00D32DD1 /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1D0462701B95A00D32DD1 /* GMAppDelegate.m */; };
 		9CA1D0522701B95C00D32DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1D0512701B95C00D32DD1 /* Assets.xcassets */; };
 		9CA1D0552701B95C00D32DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1D0532701B95C00D32DD1 /* LaunchScreen.storyboard */; };
 		9CA1D0582701B95C00D32DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1D0572701B95C00D32DD1 /* main.m */; };
 		9CA1D07C2701BC7700D32DD1 /* GMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1D07B2701BC7700D32DD1 /* GMViewController.m */; };
+		9CC2732A270D93CD00D4F612 /* openssl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6D8422270D5EE2000AF64E /* openssl.xcframework */; };
 		F99B7B21D64AD8F6BA5AC826 /* Pods_GMObjCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E937085457F6BB028F5C4F36 /* Pods_GMObjCTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -202,6 +215,20 @@
 		9C260DF52702ADD0003A4EB1 /* GMSm4Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm4Tests.m; sourceTree = "<group>"; };
 		9C260DF62702ADD0003A4EB1 /* GMSm2k1Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm2k1Tests.m; sourceTree = "<group>"; };
 		9C260DF72702ADD0003A4EB1 /* GMSm3Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm3Tests.m; sourceTree = "<group>"; };
+		9C6D8404270D5BC5000AF64E /* GMObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6D8406270D5BC5000AF64E /* GMObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMObjC.h; sourceTree = "<group>"; };
+		9C6D840B270D5E61000AF64E /* GMObjCDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMObjCDef.h; sourceTree = "<group>"; };
+		9C6D840D270D5E6A000AF64E /* GMSm4Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm4Utils.m; sourceTree = "<group>"; };
+		9C6D840E270D5E6A000AF64E /* GMSm2Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm2Utils.h; sourceTree = "<group>"; };
+		9C6D840F270D5E6A000AF64E /* GMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUtils.m; sourceTree = "<group>"; };
+		9C6D8410270D5E6A000AF64E /* GMSm2Bio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm2Bio.m; sourceTree = "<group>"; };
+		9C6D8411270D5E6A000AF64E /* GMSm3Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm3Utils.m; sourceTree = "<group>"; };
+		9C6D8412270D5E6A000AF64E /* GMSm4Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm4Utils.h; sourceTree = "<group>"; };
+		9C6D8413270D5E6A000AF64E /* GMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUtils.h; sourceTree = "<group>"; };
+		9C6D8414270D5E6B000AF64E /* GMSm3Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm3Utils.h; sourceTree = "<group>"; };
+		9C6D8415270D5E6B000AF64E /* GMSm2Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm2Utils.m; sourceTree = "<group>"; };
+		9C6D8416270D5E6B000AF64E /* GMSm2Bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm2Bio.h; sourceTree = "<group>"; };
+		9C6D8422270D5EE2000AF64E /* openssl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = openssl.xcframework; sourceTree = "<group>"; };
 		9CA1D0422701B95A00D32DD1 /* GMObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA1D0452701B95A00D32DD1 /* GMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
 		9CA1D0462701B95A00D32DD1 /* GMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
@@ -217,6 +244,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9C6D8401270D5BC5000AF64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC2732A270D93CD00D4F612 /* openssl.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CA1D03F2701B95A00D32DD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,12 +369,41 @@
 			path = public_pem;
 			sourceTree = "<group>";
 		};
+		9C6D8405270D5BC5000AF64E /* GMObjC */ = {
+			isa = PBXGroup;
+			children = (
+				9C6D8406270D5BC5000AF64E /* GMObjC.h */,
+				9C6D840B270D5E61000AF64E /* GMObjCDef.h */,
+				9C6D8416270D5E6B000AF64E /* GMSm2Bio.h */,
+				9C6D8410270D5E6A000AF64E /* GMSm2Bio.m */,
+				9C6D840E270D5E6A000AF64E /* GMSm2Utils.h */,
+				9C6D8415270D5E6B000AF64E /* GMSm2Utils.m */,
+				9C6D8414270D5E6B000AF64E /* GMSm3Utils.h */,
+				9C6D8411270D5E6A000AF64E /* GMSm3Utils.m */,
+				9C6D8412270D5E6A000AF64E /* GMSm4Utils.h */,
+				9C6D840D270D5E6A000AF64E /* GMSm4Utils.m */,
+				9C6D8413270D5E6A000AF64E /* GMUtils.h */,
+				9C6D840F270D5E6A000AF64E /* GMUtils.m */,
+			);
+			path = GMObjC;
+			sourceTree = "<group>";
+		};
+		9C6D8421270D5EE2000AF64E /* XCFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C6D8422270D5EE2000AF64E /* openssl.xcframework */,
+			);
+			path = XCFrameworks;
+			sourceTree = "<group>";
+		};
 		9CA1D0392701B95A00D32DD1 = {
 			isa = PBXGroup;
 			children = (
 				9C05BA972702B8C000C5597E /* GMObjC.podspec */,
 				9CA1D0442701B95A00D32DD1 /* GMObjCDemo */,
 				9CD7FD542701C33100514422 /* GMObjCTests */,
+				9C6D8405270D5BC5000AF64E /* GMObjC */,
+				9C6D8421270D5EE2000AF64E /* XCFrameworks */,
 				9CA1D0432701B95A00D32DD1 /* Products */,
 				D77B62549F5C7B597CCE3C05 /* Pods */,
 				D5E6F98FC6F9067E4617B09E /* Frameworks */,
@@ -351,6 +415,7 @@
 			children = (
 				9CA1D0422701B95A00D32DD1 /* GMObjCDemo.app */,
 				9CD7FD532701C33100514422 /* GMObjCTests.xctest */,
+				9C6D8404270D5BC5000AF64E /* GMObjC.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -409,7 +474,42 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9C6D83FF270D5BC5000AF64E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6D840C270D5E61000AF64E /* GMObjCDef.h in Headers */,
+				9C6D8420270D5E6B000AF64E /* GMSm2Bio.h in Headers */,
+				9C6D8418270D5E6B000AF64E /* GMSm2Utils.h in Headers */,
+				9C6D8407270D5BC5000AF64E /* GMObjC.h in Headers */,
+				9C6D841D270D5E6B000AF64E /* GMUtils.h in Headers */,
+				9C6D841E270D5E6B000AF64E /* GMSm3Utils.h in Headers */,
+				9C6D841C270D5E6B000AF64E /* GMSm4Utils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		9C6D8403270D5BC5000AF64E /* GMObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6D840A270D5BC5000AF64E /* Build configuration list for PBXNativeTarget "GMObjC" */;
+			buildPhases = (
+				9C6D83FF270D5BC5000AF64E /* Headers */,
+				9C6D8400270D5BC5000AF64E /* Sources */,
+				9C6D8401270D5BC5000AF64E /* Frameworks */,
+				9C6D8402270D5BC5000AF64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMObjC;
+			productName = GMObjC;
+			productReference = 9C6D8404270D5BC5000AF64E /* GMObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9CA1D0412701B95A00D32DD1 /* GMObjCDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA1D0712701B95C00D32DD1 /* Build configuration list for PBXNativeTarget "GMObjCDemo" */;
@@ -456,6 +556,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					9C6D8403270D5BC5000AF64E = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					9CA1D0412701B95A00D32DD1 = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -480,11 +583,19 @@
 			targets = (
 				9CA1D0412701B95A00D32DD1 /* GMObjCDemo */,
 				9CD7FD522701C33100514422 /* GMObjCTests */,
+				9C6D8403270D5BC5000AF64E /* GMObjC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9C6D8402270D5BC5000AF64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CA1D0402701B95A00D32DD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -654,6 +765,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9C6D8400270D5BC5000AF64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6D841F270D5E6B000AF64E /* GMSm2Utils.m in Sources */,
+				9C6D8417270D5E6B000AF64E /* GMSm4Utils.m in Sources */,
+				9C6D8419270D5E6B000AF64E /* GMUtils.m in Sources */,
+				9C6D841A270D5E6B000AF64E /* GMSm2Bio.m in Sources */,
+				9C6D841B270D5E6B000AF64E /* GMSm3Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CA1D03E2701B95A00D32DD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -700,6 +823,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9C6D8408270D5BC5000AF64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4BX77JHQHH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XCFrameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.GMObjC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C6D8409270D5BC5000AF64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4BX77JHQHH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XCFrameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.GMObjC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9CA1D06F2701B95C00D32DD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -925,6 +1122,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9C6D840A270D5BC5000AF64E /* Build configuration list for PBXNativeTarget "GMObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6D8408270D5BC5000AF64E /* Debug */,
+				9C6D8409270D5BC5000AF64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9CA1D03D2701B95A00D32DD1 /* Build configuration list for PBXProject "GMObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
